@@ -1,0 +1,157 @@
+.john{
+    background-color: black;
+    padding: 10px 16px;
+    overflow: hidden;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 14px;
+    font-family: sans-serif;
+}
+a:hover{
+    background-color: rgb(73, 73, 227);
+}
+.image{
+    background-image: url(https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80);
+    height: 600px;
+    
+}
+.section{
+    background-color: rgb(203, 201, 201);
+    height: 500px;
+}
+h1{
+    text-align: center;
+    color: rgb(73, 73, 227);
+}
+
+/* css border style */
+
+p.dotted{
+    border-style: dotted;
+}
+p.dashed{
+    border-style: dashed;
+}
+p.solid{
+    border-style: solid;
+}
+p.double{
+    border-style: double;
+}
+p.groove{
+    border-style: groove;
+}
+p.ridge{
+    border-style: ridge;
+}
+
+p.inset{
+    border-style: inset;
+}
+p.outset{
+    border-style: outset;
+}
+p.none{
+    border-style: none;
+}
+p.hidden{
+    border-style: hidden;
+}
+
+/* border property color */
+p.one{
+    border-style: solid;
+    border-color: red;
+}
+p.two{
+    border-style: solid;
+    border-color: green;
+}
+p.three{
+    border-style: dotted;
+    border-color: blue;
+}
+
+/* border sides property */
+div.one{
+    border-bottom-style: dotted;
+}
+div.two{
+    border-top-style: dotted;
+}
+div.three{
+    border-right-style: solid;
+}
+div.four{
+    border-left-style: solid;
+}
+/* border shorthand property */
+.shorthand{
+    border: 10px solid red;
+
+}
+
+/* css rounded */
+p.normal{
+    border: 2px solid green;
+    padding: 5px;
+}
+p.round1{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+p.round2{
+    border: 2px solid red ;
+    border-radius: 8px;
+    padding: 5px;
+}
+p.round3{
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 5px;
+}
+/* css margin */
+.margin{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+/* css margin-shorthand */
+p.margin-shorthand{
+    margin: 100px 150px 100px 80px;
+    border: 1px solid black;
+}
+.padding{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border: 3px solid red ;
+}
+/* css padding-shorthand */
+.padding-shorthand{
+    padding: 50px 30px 50px 80px;
+    border: 3px solid red;
+    margin-top: 50px;
+}
+/* css height and width property */
+.height-width{
+    height: 200px;
+    width: 50%;
+    border: 2px solid blue;
+    margin-top: 50px;
+    padding: 20px 10px 20px 50px;
+    
+}
+.box{
+    padding: 50px;
+    margin: 20px;
+    border: 15px solid green;
+
+}
+
